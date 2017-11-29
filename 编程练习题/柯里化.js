@@ -1,6 +1,6 @@
 // 请写出一个柯里化其他函数的函数 curry，这个函数能够将接受多个参数的函数，变成多个接受一个参数的函数，
 // 具体见示例（这是 lodash.curry 的文档示例
-
+//https://yi-love.github.io/blog/javascript/2016/12/08/js-func-curry.html
 function curry (fn, thisArg) {
   if (!Array.isArray(thisArg)) {
     thisArg = []
@@ -14,11 +14,11 @@ function curry (fn, thisArg) {
   }
 }
 
-var abc = function (a, b, c) {
+let abc = function (a, b, c) {
   return [a, b, c]
 }
 
-var curried = curry(abc)
+let curried = curry(abc)
 
 console.log(curried(1)(2)(3))
 // => [1, 2, 3]
