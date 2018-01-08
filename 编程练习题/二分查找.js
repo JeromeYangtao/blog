@@ -20,3 +20,10 @@ function binarySearch (target, arr, start, end) {
   }
   return -1
 }
+
+let task = {
+  action_data: (0, function (x, y) {
+    return x + y
+  })(0, 2)
+}
+console.log(task)
