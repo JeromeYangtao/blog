@@ -11,6 +11,7 @@ function pop() {
   // write code here
   let result
   if (stack2.length === 0) {
+    // 把栈1中的数放到栈2
     let temp = stack1.pop()
     while (temp) {
       stack2.push(temp)
