@@ -16,3 +16,7 @@ function parseUrl(url){
 
 console.log(parseUrl(path)); 
 //[{id: '2'},{type: '0'},{dtype: '-1'}]
+
+var regex = /[^&=?]+=[^&]*/g;
+var res = path.match(regex);
+console.log(res)
