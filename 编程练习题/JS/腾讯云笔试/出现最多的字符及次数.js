@@ -1,3 +1,4 @@
+// 完成方法count(str)，传入字符串，返回字符串中出现次数最多的字符及次数
 var str = 'qweqrtyuiqqqwrtyudfgerqtywer'
 var result = maxN(str)
 
@@ -24,5 +25,8 @@ function maxN (str) {
 }
 
 console.log('该字符串出现' + result.num + '次的' + result.value)
+
+// 参考文章:
+//JS中判断字符串中出现次数最多的字符及出现的次数 : https://www.jianshu.com/p/85afc31175d9
 
 

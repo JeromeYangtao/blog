@@ -1,3 +1,5 @@
+// 完成方法shuffle(arr)，传入数组arr，返回随机打乱后的数组
+
 function shuffle (a) {
   var b = []
   while (a.length) {
