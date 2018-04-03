@@ -11,5 +11,5 @@ var invertTree = function(root) {
   return root;//返回最后结果
 };
 
-参考:
-http://binjs.com/2017/06/01/JS%E5%8F%8D%E8%BD%AC%E4%BA%8C%E5%8F%89%E6%A0%91/
+// 参考:
+// http://binjs.com/2017/06/01/JS%E5%8F%8D%E8%BD%AC%E4%BA%8C%E5%8F%89%E6%A0%91/
