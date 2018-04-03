@@ -1,15 +1,12 @@
-function merge(left, right) {
+function merge (left, right) {
   var tmp = []
-
   while (left.length && right.length) {
-    if (left[0] < right[0]) tmp.push(left.shift())
-    else tmp.push(right.shift())
+    left[0] < right[0] ? tmp.push(left.shift()) : tmp.push(right.shift())
   }
-
   return tmp.concat(left, right)
 }
 
-function mergeSort(arr) {
+function mergeSort (arr) {
   if (arr.length === 1) return arr
 
   // ~~相当于parseInt的简化
